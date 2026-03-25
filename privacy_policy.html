@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / プライバシーポリシー – GemFolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8f7f4;
+      color: #1a1a2e;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+    header {
+      background: #0d0d1a;
+      color: #fff;
+      padding: 32px 24px 24px;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 4px;
+    }
+    header p.app-name {
+      font-size: 13px;
+      color: #b8a88a;
+      margin-bottom: 20px;
+    }
+    .lang-toggle {
+      display: flex;
+      gap: 8px;
+    }
+    .lang-btn {
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid #b8a88a;
+      background: transparent;
+      color: #b8a88a;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: #b8a88a;
+      color: #0d0d1a;
+      font-weight: 600;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 20px;
+    }
+    .intro {
+      color: #444;
+      margin-bottom: 28px;
+    }
+    section {
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0d0d1a;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e0dbd3;
+    }
+    h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+      margin: 12px 0 6px;
+    }
+    p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      color: #555;
+      padding: 3px 0 3px 16px;
+      position: relative;
+    }
+    ul li::before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 11px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #b8a88a;
+    }
+    .contact-email {
+      font-weight: 600;
+      color: #0d0d1a;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      padding: 24px;
+      border-top: 1px solid #e0dbd3;
+    }
+    [lang-content] { display: none; }
+    [lang-content].visible { display: block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy / プライバシーポリシー</h1>
+  <p class="app-name">GemFolio</p>
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('ja')">日本語</button>
+    <button class="lang-btn" onclick="setLang('en')">English</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== JAPANESE ===== -->
+  <div lang-content="ja" class="visible">
+    <p class="updated">最終更新日：2026年3月</p>
+    <p class="intro">GemFolio（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本プライバシーポリシーは、本アプリがどのような情報を取り扱い、どのように利用するかを説明するものです。</p>
+
+    <section>
+      <h2>1. 収集する情報</h2>
+      <p>本アプリが扱うデータは以下の2種類に分かれます。</p>
+      <h3>■ 当方が管理するデータ（端末内保存のみ）</h3>
+      <ul>
+        <li>宝石情報（名称・カラット・写真等）はすべてお使いの端末内にのみ保存されます。</li>
+        <li>これらのデータが当方のサーバーへ送信されることはありません。</li>
+        <li>クラッシュレポートツールは使用していません。</li>
+      </ul>
+      <h3>■ サードパーティSDKが収集するデータ</h3>
+      <ul>
+        <li>Firebase Analytics（Google）は、アプリ品質向上を目的として画面遷移・機能利用状況等の統計情報を収集します。SDKが端末識別子・IPアドレス等の技術情報を取得する場合があります。詳細は第4条および各社ポリシーを参照してください。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. アプリ内課金</h2>
+      <p>プランのアップグレードや応援サブスクの購入はApple App Storeを通じて行われます。決済に関する情報（クレジットカード番号等）は当方では取得・保管しません。購入者の識別にはApple App Storeが提供する匿名IDのみを使用します。</p>
+    </section>
+
+    <section>
+      <h2>3. 写真・画像データ</h2>
+      <p>宝石の写真はお使いの端末のストレージ内（アプリのサンドボックス領域）にのみ保存されます。写真データが外部に送信されることはありません。引き継ぎファイル（.gemfolio）を生成・共有する場合、そのファイルの取り扱いはユーザー自身の責任において行ってください。</p>
+    </section>
+
+    <section>
+      <h2>4. サードパーティサービス</h2>
+      <p>本アプリが使用するサードパーティサービスとそのプライバシーポリシーは以下のとおりです。</p>
+      <ul>
+        <li>Apple App Store（アプリ内課金の処理）</li>
+        <li>RevenueCat（課金状態の管理・同期）</li>
+        <li>Firebase Analytics / Google（使用状況統計収集）</li>
+        <li>Claude / Anthropic（AI提案の生成、Cloudflare Workers経由）</li>
+      </ul>
+      <p>RevenueCatはサブスクリプションの状態管理のために、ユーザーIDと課金状態を収集します。Firebase Analyticsは、画面遷移・機能利用状況・有料プラン利用状況・コレクション登録数の規模（0件・1〜10件・11〜50件・51件以上のレンジ）・石種や産地で「その他」が選択された回数などの統計データを収集します。これらのSDKは端末識別子・IPアドレス等の技術情報を取得する場合があります。詳細は各サービスのプライバシーポリシーをご確認ください。</p>
+      <p>AI提案機能では、登録済みコレクションを石種分布・色相傾向・カラット帯・価格帯・鑑別書比率などの集計情報に抽象化し、アンケート回答とあわせてCloudflare Workers経由でClaudeへ送信します。個々の宝石写真・メモ本文・購入先などの詳細データは送信しません。</p>
+    </section>
+
+    <section>
+      <h2>5. データの削除</h2>
+      <p>本アプリをアンインストールすると、端末内に保存されたコレクションデータ（宝石情報・写真・設定）は削除されます。設定画面の「データをすべて削除」からも手動削除が可能です。</p>
+      <p>ただし、Firebase Analytics（および課金有効時のRevenueCat）が各社サーバーに蓄積した統計情報・課金管理情報については、上記の操作では削除されません。これらのデータ削除をご希望の場合は、各社のサポート窓口にお問い合わせください。</p>
+    </section>
+
+    <section>
+      <h2>6. 児童のプライバシー</h2>
+      <p>本アプリは13歳未満の児童から意図的に情報を収集しません。13歳未満のお子様が本アプリを利用する場合は、保護者の管理のもとで使用してください。</p>
+    </section>
+
+    <section>
+      <h2>7. ポリシーの変更</h2>
+      <p>本プライバシーポリシーは必要に応じて更新することがあります。重大な変更がある場合はアプリのアップデートを通じてお知らせします。更新日は本ページ上部に表示されます。</p>
+    </section>
+
+    <section>
+      <h2>8. お問い合わせ</h2>
+      <p>プライバシーポリシーに関するご質問は、下記の連絡先までメールにてお問い合わせください。</p>
+      <p class="contact-email">kiri.develop.kimama@gmail.com</p>
+    </section>
+  </div>
+
+  <!-- ===== ENGLISH ===== -->
+  <div lang-content="en">
+    <p class="updated">Last Updated: March 2026</p>
+    <p class="intro">GemFolio (the "App") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains what information the App handles and how it is used.</p>
+
+    <section>
+      <h2>1. Information We Collect</h2>
+      <p>The App handles two types of data:</p>
+      <h3>■ Data We Control (Device-only)</h3>
+      <ul>
+        <li>Gem information (name, carats, photos, etc.) is stored exclusively on your device.</li>
+        <li>None of this data is transmitted to our servers.</li>
+        <li>We do not use any crash reporting tools.</li>
+      </ul>
+      <h3>■ Data Collected by Third-Party SDKs</h3>
+      <ul>
+        <li>Firebase Analytics (Google) collects statistical information such as screen navigation and feature usage to improve app quality. The SDK may obtain technical information including device identifiers and IP addresses. See Section 4 and each provider's policy for details.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. In-App Purchases</h2>
+      <p>Plan upgrades and supporter subscription purchases are processed through the Apple App Store. We do not collect or store payment information (e.g. credit card numbers). Only the anonymous ID provided by the Apple App Store is used to identify purchasers.</p>
+    </section>
+
+    <section>
+      <h2>3. Photos and Image Data</h2>
+      <p>Gem photos are stored only within your device's local storage (the app sandbox). Photo data is never transmitted externally. When you generate or share a transfer file (.gemfolio), the handling of that file is your responsibility.</p>
+    </section>
+
+    <section>
+      <h2>4. Third-Party Services</h2>
+      <p>The following third-party services are used in this app and their privacy policies apply:</p>
+      <ul>
+        <li>Apple App Store (in-app purchase processing)</li>
+        <li>RevenueCat (subscription state management)</li>
+        <li>Firebase Analytics / Google (usage statistics)</li>
+        <li>Claude / Anthropic (AI suggestion generation, via Cloudflare Workers)</li>
+      </ul>
+      <p>RevenueCat collects user IDs and subscription status to manage subscriptions. Firebase Analytics collects statistical data including screen navigation, feature usage, paid plan usage, approximate collection size (0, 1–10, 11–50, 51+ items), and how often "Other" is selected for species and origins. These SDKs may also collect device identifiers and IP addresses. Please review each service's privacy policy for details.</p>
+      <p>The AI suggestion feature abstracts your registered collection into aggregate statistics—species distribution, color trends, carat range, price range, and certificate ratio—and sends this data along with your questionnaire responses to Claude via Cloudflare Workers. Individual gem photos, memo text, and purchase sources are not transmitted.</p>
+    </section>
+
+    <section>
+      <h2>5. Data Deletion</h2>
+      <p>Uninstalling the app will delete all collection data (gems, photos, settings) stored on your device. You can also delete all data manually from Settings → "Delete All Data".</p>
+      <p>Statistical data accumulated by Firebase Analytics, and subscription management data held by RevenueCat on their servers, are not deleted by the above actions. To request deletion of this data, please contact each provider's support.</p>
+    </section>
+
+    <section>
+      <h2>6. Children's Privacy</h2>
+      <p>We do not knowingly collect information from children under 13. If a child under 13 uses this app, please supervise their use.</p>
+    </section>
+
+    <section>
+      <h2>7. Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated as needed. We will notify you of significant changes through app updates. The date of the last update is shown at the top of this page.</p>
+    </section>
+
+    <section>
+      <h2>8. Contact</h2>
+      <p>For questions about this Privacy Policy, please contact us by email at the address below.</p>
+      <p class="contact-email">kiri.develop.kimama@gmail.com</p>
+    </section>
+  </div>
+
+</main>
+
+<footer>
+  &copy; GemFolio. All rights reserved.
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('[lang-content]').forEach(el => {
+      el.classList.toggle('visible', el.getAttribute('lang-content') === lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.includes(lang === 'ja' ? '日本語' : 'English'));
+    });
+    document.documentElement.lang = lang;
+  }
+
+  // ブラウザ言語に合わせて初期表示を切り替え
+  const browserLang = navigator.language.startsWith('ja') ? 'ja' : 'en';
+  setLang(browserLang);
+</script>
+
+</body>
+</html>
